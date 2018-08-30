@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'spec_helper'
 
 descripe Post do
   it 'can be created' do
