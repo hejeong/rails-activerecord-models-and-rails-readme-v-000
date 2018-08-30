@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-descripe Post do
+describe Post do
   it 'can be created' do
     post = Post.create!(title: "My Title", description: "The post description")
     expect(post).to be_valid
